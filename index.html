@@ -2,67 +2,271 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Espiritu Manzanarez Diego Manuel - Ejercicio #15</title>
-<link rel="stylesheet" href="prestamos.css">
+  <title>Espiritu Manzanarez Diego Manuel #18</title>
+  <link rel="stylesheet" href="uas.css">
 </head>
+
 <body>
 
-<form>
-    <h1>Prestamos</h1>
-  <label>Nombre:</label><br>
-  <input type="text" name="nombre"><br><br>
+  <div class="barra-arriba">
+    <div>
+      <span>Los Mochis, Sinaloa</span>
+      <span>Tel: 6688127641</span>
+    </div>
+    <div>
+      <a href="#">Portal Estudiantes |</a>
+      <a href="#">Correo Institucional |</a>
+      <a href="#">SECIHTI |</a>
+      <a href="#">Arroz con Pollo</a>
+    </div>
+  </div>
 
-  <label>Carrera:</label><br>
-  <input type="text" name="carrera"><br><br>
+  <div class="menu">
+    <div class="logo">
+      <div class="logo-caja">UAS</div>
+      <div>
+        <div class="logo-nombre">Facultad de Ingenieria Mochis</div>
+        <div class="logo-texto-chico">UNIVERSIDAD AUTONOMA DE SINALOA</div>
+      </div>
+    </div>
 
-  <label>Grupo:</label><br>
-  <input type="text" name="grupo"><br><br>
+    <ul class="menu-links">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Mision y Vision</a></li>
+      <li><a href="#">Licenciatura</a></li>
+      <li><a href="#">Posgrado</a></li>
+      <li><a href="#">Titulacion</a></li>
+      <li><a href="#">Examenes</a></li>
+      <li><a href="#" class="boton-menu">Cursos</a></li>
+    </ul>
+  </div>
 
-  <label>Semestre:</label><br>
-  <input type="radio" name="semestre" value="C"> C
-  <input type="radio" name="semestre" value="G"> G
-  <input type="radio" name="semestre" value="S"> S
-  <input type="radio" name="semestre" value="IP"> IP
-  <input type="radio" name="semestre" value="IN"> IN
-  <input type="radio" name="semestre" value="A"> A
-  <input type="radio" name="semestre" value="P"> P
-  <br><br>
+  <div class="portada">
+    <div class="portada-etiqueta">Programa Acreditado · PNPC CONACYT</div>
 
-  <label>Alum/Prof:</label><br>
-  <input type="radio" name="tipo_usuario" value="alumno"> Alumno
-  <input type="radio" name="tipo_usuario" value="profesor"> Profesor
-  <br><br>
+    <h1 class="portada-titulo">
+      Ingenieria con<br>
+      <em>Vision de Futuro</em>
+    </h1>
 
-  <label>Prestamo:</label><br>
-  <input type="text" name="prestamo"><br><br>
+    <p class="portada-descripcion">
+      Formamos ingenieros y licenciados bien buenos capaces de transformar Sinaloa y Mexico usando chatGPT y otras tecnologias para facilitar el trabajo.
+    </p>
 
-  <label>Fecha:</label><br>
-  <input type="date" name="fecha_prestamo"><br><br>
+    <div class="portada-botones">
+      <a href="#" class="boton-dorado">Conoce nuestra oferta</a>
+      <a href="#" class="boton-borde">Proceso de admision</a>
+      <a href="#" class="boton-borde">Estacionate bien UAS</a>
+    </div>
 
-  <label>Hora:</label><br>
-  <input type="time" name="hora_prestamo"><br><br>
+    <div class="caja-stats">
+      <div class="stat">
+        <div class="stat-numero">8</div>
+        <div class="stat-texto">Programas educativos</div>
+      </div>
+      <div class="stat">
+        <div class="stat-numero">0</div>
+        <div class="stat-texto">Alumnos malos</div>
+      </div>
+      <div class="stat">
+        <div class="stat-numero">777+</div>
+        <div class="stat-texto">Años de trayectoria</div>
+      </div>
+      <div class="stat">
+        <div class="stat-numero">112%</div>
+        <div class="stat-texto">Efectividad de educacion</div>
+      </div>
+      <div class="stat">
+        <div class="stat-numero">2</div>
+        <div class="stat-texto">Tiendas en las facultades</div>
+      </div>
+    </div>
+  </div>
 
-  <label>Hr. de prestamo:</label><br>
-  <input type="text" name="hr_prestamo"><br><br>
+  <div class="seccion-carreras" id="carreras">
+    <div class="titulo-seccion">
+      <div class="titulo-seccion-etiqueta">Oferta Educativa</div>
+      <h2 class="titulo-seccion-grande">Elige tu <span>carrera</span></h2>
+      <p class="titulo-seccion-subtitulo">Licenciatura, modalidad virtual y posgrado.</p>
+    </div>
 
-  <label>Firma:</label><br>
-  <input type="text" name="firma_prestamo"><br><br>
+    <div class="cuadricula-carreras">
+      <div class="caja-carrera">
+        <div class="carrera-icono">💻</div>
+        <div class="carrera-nivel">Licenciatura · Presencial</div>
+        <div class="carrera-nombre">Ingenieria de Software</div>
+        <p class="carrera-descripcion">Desarrollo de sistemas, arquitectura de software, metodologias agiles, etc.</p>
+      </div>
 
-  <label>Fecha de entrega:</label><br>
-  <input type="date" name="fecha_entrega"><br><br>
+      <div class="caja-carrera">
+        <div class="carrera-icono">🏗️</div>
+        <div class="carrera-nivel">Licenciatura</div>
+        <div class="carrera-nombre">Ingenieria Civil</div>
+        <p class="carrera-descripcion">Diseño y construccion de edificaciones de diferentes tipos como casas, edificios, etc.</p>
+      </div>
 
-  <label>Hora de entrega:</label><br>
-  <input type="time" name="hora_entrega"><br><br>
+      <div class="caja-carrera">
+        <div class="carrera-icono">🛰️</div>
+        <div class="carrera-nivel">Licenciatura</div>
+        <div class="carrera-nombre">Ingenieria Geodesica</div>
+        <p class="carrera-descripcion">Cartografia, analisis de suelos, fotos para google maps y mapas en general.</p>
+      </div>
 
-  <label>Hr. de entrega:</label><br>
-  <input type="text" name="hr_entrega"><br><br>
+      <div class="caja-carrera">
+        <div class="carrera-icono">⚙️</div>
+        <div class="carrera-nivel">Licenciatura</div>
+        <div class="carrera-nombre">Ing. en Procesos Industriales</div>
+        <p class="carrera-descripcion">Optimizacion de procesos industriales para las industrias que necesitan procesos.</p>
+      </div>
 
-  <label>Firma de entrega:</label><br>
-  <input type="text" name="firma_entrega"><br><br>
+      <div class="caja-carrera">
+        <div class="carrera-icono">🤖</div>
+        <div class="carrera-nivel">Licenciatura</div>
+        <div class="carrera-nombre">Ingenieria en Prompts</div>
+        <p class="carrera-descripcion">Aprende a gnerar mejores prompts para utilizar las IAs de mejor forma.</p>
+      </div>
 
-  <input type="submit" value="Enviar">
+      <div class="caja-carrera">
+        <div class="carrera-icono">⚡</div>
+        <div class="carrera-nivel">Licenciatura</div>
+        <div class="carrera-nombre">Energias Renovables</div>
+        <p class="carrera-descripcion">Tecnologia de para hacer uso de las energias Renovables de la mejor forma.</p>
+      </div>
 
-</form>
+      <div class="caja-carrera">
+        <div class="carrera-icono">🔬</div>
+        <div class="carrera-nivel">Posgrado · Maestria</div>
+        <div class="carrera-nombre">Maestria en Ing. de Software</div>
+        <p class="carrera-descripcion">Temas avanzados en el desarrollo de software para crear mejores proyectos.</p>
+      </div>
+
+      <div class="caja-carrera">
+        <div class="carrera-icono">🎨</div>
+        <div class="carrera-nivel">Licenciatura</div>
+        <div class="carrera-nombre">Diseño grafico</div>
+        <p class="carrera-descripcion">Creacion de diseños para logos, playeras, tasas,paginas, etc.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="banner-convocatoria">
+    <div class="banner-interior">
+      <div>
+        <div class="banner-etiqueta">Programa Institucional de Tutorias · UAS</div>
+        <h2 class="banner-titulo">Convocatoria<br>Red de Asesores par</h2>
+        <p class="banner-texto">Ayudanos a ayudar a alumnos con necesidad de reforzar sus conocimientos de una mejor manera.</p>
+      </div>
+      <div>
+        <a href="#" class="boton-oscuro">Ver convocatoria</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="seccion-examenes" id="examenes">
+    <div class="titulo-seccion">
+      <div class="titulo-seccion-etiqueta">Servicios Academicos</div>
+      <h2 class="titulo-seccion-grande">Examenes <span>Extraordinarios</span></h2>
+      <p class="titulo-seccion-subtitulo">Consulta la programacion por carrera.</p>
+    </div>
+
+    <div class="caja-tabla">
+      <table>
+        <thead>
+          <tr>
+            <th>Materia</th>
+            <th>Fecha</th>
+            <th>Horario</th>
+            <th>Aula</th>
+            <th>Tipo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Calculo Diferencial e Integral</td>
+            <td>10 Mar 2026</td>
+            <td>08:00 – 10:00</td>
+            <td>12</td>
+            <td><span class="etiqueta-dorada">Extraordinario</span></td>
+          </tr>
+          <tr>
+            <td>Mecanica de Materiales</td>
+            <td>12 Mar 2026</td>
+            <td>10:00 – 12:00</td>
+            <td>13</td>
+            <td><span class="etiqueta-dorada">Extraordinario</span></td>
+          </tr>
+          <tr>
+            <td>Hidraulica General</td>
+            <td>14 Mar 2026</td>
+            <td>08:00 – 10:00</td>
+            <td>CC-3</td>
+            <td><span class="etiqueta-azul">Regularizacion</span></td>
+          </tr>
+          <tr>
+            <td>Topografia I</td>
+            <td>15 Mar 2026</td>
+            <td>14:00 – 16:00</td>
+            <td>15</td>
+            <td><span class="etiqueta-dorada">Extraordinario</span></td>
+          </tr>
+          <tr>
+            <td>Resistencia de Materiales</td>
+            <td>17 Mar 2026</td>
+            <td>08:00 – 10:00</td>
+            <td>CC-3</td>
+            <td><span class="etiqueta-azul">Regularizacion</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-columnas">
+
+      <div>
+        <div class="footer-nombre">Facultad de Ingenieria Mochis</div>
+        <div class="footer-nombre-chico">Universidad Autpnoma de Sinaloa</div>
+        <p class="footer-texto">Formando ingenieros bien buenos en Los Mochis, Sinaloa.</p>
+      </div>
+
+      <div class="footer-col">
+        <div class="footer-col-titulo">Institución</div>
+        <ul>
+          <li><a href="#">Mision y Vision</a></li>
+          <li><a href="#">Direccion</a></li>
+          <li><a href="#">Modelo Educativo</a></li>
+          <li><a href="#">Transparencia con las tortillas</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <div class="footer-col-titulo">Academico</div>
+        <ul>
+          <li><a href="#">Licenciatura</a></li>
+          <li><a href="#">Posgrado</a></li>
+          <li><a href="#">Ingenieria</a></li>
+          <li><a href="#">Titulacion</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <div class="footer-col-titulo">Recursos</div>
+        <ul>
+          <li><a href="#">Bolsa de Trabajo</a></li>
+          <li><a href="#">Convocatorias</a></li>
+          <li><a href="#">Cursos y Talleres</a></li>
+          <li><a href="#">Calendario Escolar</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-abajo">
+      <div class="footer-copyright">© 2026 Facultad de Ingenieria Mochis · UAS</div>
+    </div>
+  </footer>
 
 </body>
 </html>
